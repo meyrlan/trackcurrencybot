@@ -1,5 +1,6 @@
 import config
 import responses as R
+import telebot
 from telebot import *
 from binance_class import BinanceAPI
 
