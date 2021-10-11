@@ -1,17 +1,8 @@
-import requests
-import telebot.apihelper
-from binance.client import Client, BinanceAPIException
 import config
-import os
 import telebot
 import responses as R
-from telegram.ext import *
 from telebot import types
-import utility
 from binance_class import BinanceAPI
-
-# client = Client(config.binance_api_key, config.binance_api_security)
-# print("Logged into Binance account!")
 
 bot = telebot.TeleBot(config.bot_api_key, parse_mode=None)
 
