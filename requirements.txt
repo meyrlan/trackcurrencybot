@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+python-binance
+python-telegram-bot
+requests
+telebot
+telegram
