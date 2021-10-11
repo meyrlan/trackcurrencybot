@@ -1,7 +1,6 @@
 import config
-import telebot
 import responses as R
-from telebot import types
+from telebot import *
 from binance_class import BinanceAPI
 
 bot = telebot.TeleBot(config.bot_api_key, parse_mode=None)
