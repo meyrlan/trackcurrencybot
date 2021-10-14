@@ -4,15 +4,6 @@ import telebot
 from telebot import types
 from binance_class import BinanceAPI
 
-from binance.client import Client
-import configparser
-
-# client = Client(config.binance_api_key, config.binance_api_security)
-# # info = client.get_account()  # Getting account info
-# klines = client.get_historical_klines("BNBBTC", Client.KLINE_INTERVAL_1MONTH, "1 month ago UTC")
-#
-# print(klines)
-
 bot = telebot.TeleBot(config.bot_api_key)
 
 @bot.message_handler(commands=["convert"])
